@@ -10,3 +10,6 @@ This repository contains a series of Terraform exercises designed to help you le
 - **Ex4**: Create Instance and run provisioner scripts (Sets up Apache2 and installs a web template)
 - **Ex5**: Create instance and output their IPs to a file and to the console
 - **Ex6**: Configure remote state management using S3 backend
+
+### Considerations
+- Exercises 2 onward require creation of an ssh key with the name you want to use on each exercise, and add the public key details on the Keypair.tf file
