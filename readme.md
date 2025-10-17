@@ -11,5 +11,9 @@ This repository contains a series of Terraform exercises designed to help you le
 - **Ex5**: Create instance and output their IPs to a file and to the console
 - **Ex6**: Configure remote state management using S3 backend
 
-### Considerations
-- Exercises 2 onward require creation of an ssh key with the name you want to use on each exercise, and add the public key details on the Keypair.tf file
+### Prerequisites
+- Terraform installed on your local machine
+- An AWS account with appropriate permissions to create resources
+- AWS CLI configured with your credentials
+- Create a ssh-keypair and save it on the base path.
+- Exercises 2 onward require  an ssh key with the name you want to use on each exercise, and add the public key details on the Keypair.tf file
